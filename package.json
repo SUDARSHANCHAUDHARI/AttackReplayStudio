@@ -1,0 +1,11 @@
+{
+  "name": "attackreplay-studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AttackReplay Studio scaffold",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "seed": "bash scripts/seed-demo-data.sh",
+    "dev": "bash scripts/run-local.sh"
+  }
+}
