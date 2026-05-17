@@ -1,0 +1,32 @@
+[
+  {
+    "event_count": 3,
+    "ip": "198.51.100.22",
+    "paths": [
+      "/.env"
+    ],
+    "stages": [
+      "login_failed",
+      "login_failed",
+      "http_request"
+    ]
+  },
+  {
+    "event_count": 1,
+    "ip": "203.0.113.10",
+    "paths": [],
+    "stages": [
+      "login_success"
+    ]
+  },
+  {
+    "event_count": 1,
+    "ip": "192.0.2.45",
+    "paths": [
+      "/search?q=union%20select"
+    ],
+    "stages": [
+      "http_request"
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "event": {
+      "event_type": "login_failed",
+      "ip": "198.51.100.22",
+      "raw": "May 17 10:00:01 kiosk sshd[1]: Failed password for invalid user admin from 198.51.100.22 port 50122 ssh2",
+      "source": "auth",
+      "timestamp": "May 17 10:00:01",
+      "user": "admin"
+    },
+    "event_type": "login_failed",
+    "ip": "198.51.100.22",
+    "label": "login_failed user=admin",
+    "severity": "medium",
+    "step": 1,
+    "timestamp": "May 17 10:00:01"
+  },
+  {
+    "event": {
+      "event_type": "login_failed",
+      "ip": "198.51.100.22",
+      "raw": "May 17 10:00:04 kiosk sshd[2]: Failed password for root from 198.51.100.22 port 50124 ssh2",
+      "source": "auth",
+      "timestamp": "May 17 10:00:04",
+      "user": "root"
+    },
+    "event_type": "login_failed",
+    "ip": "198.51.100.22",
+    "label": "login_failed user=root",
+    "severity": "medium",
+    "step": 2,
+    "timestamp": "May 17 10:00:04"
+  },
+  {
+    "event": {
+      "event_type": "login_success",
+      "ip": "203.0.113.10",
+      "raw": "May 17 10:05:17 kiosk sshd[3]: Accepted password for kiosk from 203.0.113.10 port 50911 ssh2",
+      "source": "auth",
+      "timestamp": "May 17 10:05:17",
+      "user": "kiosk"
+    },
+    "event_type": "login_success",
+    "ip": "203.0.113.10",
+    "label": "login_success user=kiosk",
+    "severity": "high",
+    "step": 3,
+    "timestamp": "May 17 10:05:17"
+  },
+  {
+    "event": {
+      "event_type": "http_request",
+      "ip": "198.51.100.22",
+      "method": "GET",
+      "path": "/.env",
+      "raw": "198.51.100.22 - - [17/May/2026:10:06:01 +0000] \"GET /.env HTTP/1.1\" 404 21 \"-\" \"sqlmap/1.7\"",
+      "source": "nginx",
+      "status": 404,
+      "timestamp": "17/May/2026:10:06:01 +0000",
+      "user_agent": "sqlmap/1.7"
+    },
+    "event_type": "http_request",
+    "ip": "198.51.100.22",
+    "label": "http_request /.env",
+    "severity": "low",
+    "step": 4,
+    "timestamp": "17/May/2026:10:06:01 +0000"
+  },
+  {
+    "event": {
+      "event_type": "http_request",
+      "ip": "192.0.2.45",
+      "method": "GET",
+      "path": "/search?q=union%20select",
+      "raw": "192.0.2.45 - - [17/May/2026:10:07:11 +0000] \"GET /search?q=union%20select HTTP/1.1\" 403 39 \"-\" \"Mozilla/5.0\"",
+      "source": "nginx",
+      "status": 403,
+      "timestamp": "17/May/2026:10:07:11 +0000",
+      "user_agent": "Mozilla/5.0"
+    },
+    "event_type": "http_request",
+    "ip": "192.0.2.45",
+    "label": "http_request /search?q=union%20select",
+    "severity": "low",
+    "step": 5,
+    "timestamp": "17/May/2026:10:07:11 +0000"
+  }
+]

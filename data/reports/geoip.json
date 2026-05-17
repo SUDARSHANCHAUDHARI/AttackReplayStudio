@@ -1,0 +1,14 @@
+{
+  "192.0.2.45": {
+    "city": "Payload Bay",
+    "country": "ExampleLab"
+  },
+  "198.51.100.22": {
+    "city": "Scanner City",
+    "country": "ExampleNet"
+  },
+  "203.0.113.10": {
+    "city": "Admin Town",
+    "country": "ExampleOrg"
+  }
+}
