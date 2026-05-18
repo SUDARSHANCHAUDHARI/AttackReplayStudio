@@ -13,6 +13,7 @@
     "label": "login_failed user=admin",
     "severity": "medium",
     "step": 1,
+    "tactic": "Credential Access",
     "timestamp": "May 17 10:00:01"
   },
   {
@@ -29,6 +30,7 @@
     "label": "login_failed user=root",
     "severity": "medium",
     "step": 2,
+    "tactic": "Credential Access",
     "timestamp": "May 17 10:00:04"
   },
   {
@@ -45,6 +47,7 @@
     "label": "login_success user=kiosk",
     "severity": "high",
     "step": 3,
+    "tactic": "Credential Access",
     "timestamp": "May 17 10:05:17"
   },
   {
@@ -62,8 +65,9 @@
     "event_type": "http_request",
     "ip": "198.51.100.22",
     "label": "http_request /.env",
-    "severity": "low",
+    "severity": "medium",
     "step": 4,
+    "tactic": "Reconnaissance",
     "timestamp": "17/May/2026:10:06:01 +0000"
   },
   {
@@ -81,8 +85,9 @@
     "event_type": "http_request",
     "ip": "192.0.2.45",
     "label": "http_request /search?q=union%20select",
-    "severity": "low",
+    "severity": "medium",
     "step": 5,
+    "tactic": "Reconnaissance",
     "timestamp": "17/May/2026:10:07:11 +0000"
   }
 ]

@@ -5,19 +5,27 @@
     "paths": [
       "/.env"
     ],
+    "risk_level": "medium",
+    "risk_score": 50,
     "stages": [
       "login_failed",
       "login_failed",
       "http_request"
+    ],
+    "suspicious_paths": [
+      "/.env"
     ]
   },
   {
     "event_count": 1,
     "ip": "203.0.113.10",
     "paths": [],
+    "risk_level": "medium",
+    "risk_score": 40,
     "stages": [
       "login_success"
-    ]
+    ],
+    "suspicious_paths": []
   },
   {
     "event_count": 1,
@@ -25,8 +33,13 @@
     "paths": [
       "/search?q=union%20select"
     ],
+    "risk_level": "low",
+    "risk_score": 15,
     "stages": [
       "http_request"
+    ],
+    "suspicious_paths": [
+      "/search?q=union%20select"
     ]
   }
 ]

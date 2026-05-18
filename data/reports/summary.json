@@ -1,0 +1,31 @@
+{
+  "events": 5,
+  "highest_ip_risk": 50,
+  "risk_level": "medium",
+  "severity_counts": {
+    "high": 1,
+    "medium": 4
+  },
+  "source_ips": 3,
+  "tactic_counts": {
+    "Credential Access": 3,
+    "Reconnaissance": 2
+  },
+  "top_ip": {
+    "event_count": 3,
+    "ip": "198.51.100.22",
+    "paths": [
+      "/.env"
+    ],
+    "risk_level": "medium",
+    "risk_score": 50,
+    "stages": [
+      "login_failed",
+      "login_failed",
+      "http_request"
+    ],
+    "suspicious_paths": [
+      "/.env"
+    ]
+  }
+}
