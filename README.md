@@ -79,7 +79,7 @@ AttackReplayStudio/
 │   └── web/       React/Next.js app scaffold (planned)
 ├── data/
 │   ├── samples/   Safe sample logs for replay
-│   └── reports/   Generated output (gitignored)
+│   └── reports/   Example generated output
 ├── docker/        Dockerfile + compose support
 ├── docs/          Architecture, security, and demo notes
 ├── scripts/       Setup, seed, and run helpers
