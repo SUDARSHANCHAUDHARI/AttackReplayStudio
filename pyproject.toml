@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "attackreplaystudio"
+version = "1.0.0"
+description = "Visual incident replay dashboard that turns safe sample logs into an attack timeline"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+
+[project.scripts]
+attack-replay-studio = "apps.api.app.cli:main"
