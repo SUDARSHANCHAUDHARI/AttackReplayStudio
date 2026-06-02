@@ -37,6 +37,19 @@ FastAPI, React, GeoIP data, Docker.
 
 Working CLI MVP.
 
+
+## Install
+
+```bash
+pip install .
+```
+
+This registers the `attack-replay-studio` command. Or run directly:
+
+```bash
+python3 main.py --help
+```
+
 ## Quick Start
 
 Replay the included safe sample logs:
